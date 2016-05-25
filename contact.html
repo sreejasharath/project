@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Welcome to Sreeja Interior Design</title>
+	<link rel="stylesheet" type="text/css" href="vidstyle.css" />
+	<style>
+		table 
+{ 
+			color:black;
+		}
+		#content 
+{ 
+			background:url(bgcolor.jpg);
+		}
+ul
+		{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+		}
+li
+		{
+			display:inline;
+			color:"white";
+		}
+	</style>
+	<script language="javascript">
+		function frmvalidation()
+		{
+			self.location="submit.html";
+		}
+	</script>
+</head>
+<body>
+	<div id="header">
+	<center>
+	<blink><h2 ><font color="red"><marquee behavior="alternate">Welcome To The World of Interior Designing... &nbsp &nbsp Welcome To The World of Interior Designing... 		</marquee></font></h2></blink>
+	<span style="color:white;font-weight:bold; font-size:30">SREEJA INTERIOR DESIGNERS</span>
+	</center>
+	</div>
+	<div id="menu">
+		<nav align="center">
+		<ul>
+			<li><a href="Welcome.html" target="f2" ><b>HOME</b></a></li>
+			<li><a href="Story.html" target="f2" ><b>STORY</b></a></li>
+			<li><a href="Services.html" target="f2" ><b>OUR SERVICES</b></a></li>
+                  		<li><a href="#"><b>GALLERY</b></a>
+                  		<ul>
+                  			<li><a href="Kids.html" target="f2">Kids Special</a></li>  
+                  			<li><a href="BedRoom.html" target="f2">Bed Room</a></li>
+                  			<li><a href="LivingRoom.html" target="f2">Living Room</a></li>
+                  			<li><a href="Coorporate.html" target="f2">Coorporate</a></li>  
+                  			<li><a href="ArtGallery.html" target="f2">Art Gallery</a></li>
+                  			<li><a href="Kitchen.html" target="f2">Kitchen</a></li>  
+                  			<li><a href="Hospitals.html" target="f2">Hospital</a></li>
+                  			<li><a href="Colleges.html" target="f2">College</a></li>    
+         			</ul>
+			</li>     
+			<li><a href="Contact.html" target="f2" ><b>CONTACT US</b></a></li>
+		</ul><br>
+		</nav>
+	</div>
+
+	<div id="content">
+	<br><br><br><br>
+       	<table style="color:white" width="100%" border="0" cellspacing="5" cellpadding="0">
+          	<tr>
+           		<td colspan="2" valign="top"> <h1>CONTACT US</h1></td>
+           		<td width="51%">  <h1>FOR ENQUIRY</h1></td>
+          	</tr>
+	<tr>
+           		<td colspan="2" valign="top">
+		<p>
+		<table width="100%" border="0" cellspacing="5" cellpadding="0">
+           			<tr>
+			<td width="15%" valign="top">Address</td>
+			<td width="75%">26 Mission St. <br>Ooty, India <br /></td>
+            		</tr>
+              		<tr>
+                		<td valign="top">Phone</td>
+	            	<td>9443532082</td>
+              		</tr>
+              		<tr>
+                		<td valign="top">Fax</td>
+			<td>123-456-7891</td>
+			</tr>
+              		<tr>
+			<td valign="top">Email</td>
+			<td>
+<a href="mailto:info@mysite.com" title="mailto sreeja_designers" style="color:#999999;">sreeja_designers@yahoo.com</a><br />
+                  		<a href="mailto:customercare@sreejainteriors.in" title="mailto customercare" style="color:#999999;">customercare@sreejainteriors.in</a>
+</td>
+              		</tr>
+              		<tr>
+			<td valign="top">Website</td>
+			<td>
+<a href="http://www.sreejainteriordesigners.in" title="www.sreejainteriordesigners.in" style="color:#999999;">www.sreejainteriordesigners.in</a>
+</td>
+              		</tr>
+            	</table>	
+		</p>
+		</td>
+  		<td width="51%" valign="top">
+<p align="justify">
+  		<table width="94%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+				<th width="37%" height="35" align="left" valign="top" class="style71" scope="col">Name*</th>
+		                        <th width="63%" align="left" valign="middle" scope="col"><input type="text" name="txtname"  id="txtname" onkeypress="return noNumbers(event)" onfocus="setStyle(this.id)"/></th>
+                          		</tr>
+		                        <tr>
+		                        <th height="31" align="left" valign="top" class="style71" scope="col">Mobile*</th>
+		                        <th height="31" align="left" valign="middle" scope="col"><input type="text" maxlength="" name="txtphone" id="txtphone" onkeypress="return NumericValuesOnly(event)" onfocus="setStyle(this.id)"/></th>
+		                        </tr>
+		                        <tr>
+			            <th height="33" align="left" valign="top" class="style71" scope="col">Email*</th>
+			            <th height="33" align="left" valign="middle" scope="col"><input type="text" name="txtemail" id="txtemail" onfocus="setStyle(this.id)"/></th>
+                          		</tr>
+                          		<tr>
+            <th height="32" align="left" valign="top" class="style71" scope="col">Message*</th>
+                        <th height="32" align="left" valign="middle" scope="col">
+<textarea name="txtquery" id="txtquery" cols="21" rows="5" style="height:60px;" onkeypress="return noNumbers(event)" onfocus="setStyle(this.id)"></textarea>
+</th>
+                          		</tr>
+                          		<tr>
+                        <th align="right" valign="middle" scope="col">&nbsp;</th>
+                        <th align="left" valign="middle" scope="col">
+<input type="submit" name="submit" value="Submit" onclick="frmvalidation();" />&nbsp;
+<input type="reset" name="Clear2" value="Clear" />                                  
+</th>
+                          		</tr>
+                          		<tr>
+                  	        		<td align="center" colspan="2"></td>
+                          		</tr>
+            		</table>
+</p>
+</td>
+</tr>
+</table>
+	</div>
+
+	<div id="footer">
+		Copyright © 2016 SREEJA DESIGNERS PRIVATE LIMITED.All Rights Reserved</div>
+</body>
+</html>
+

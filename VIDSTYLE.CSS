@@ -1,0 +1,90 @@
+
+body
+{
+	background-image: url(background.jpg);
+}
+#header
+{
+	background-image: url(background.jpg);
+}
+#footer
+{
+	background-color:#FFA500;
+	clear:both;
+	text-align:center;
+   	position:relative;
+	bottom:0;
+	width:100%;
+}
+#menu
+{
+	background-image: url(interiordesignlogo.jpg);
+}
+address
+{
+	color:black;	
+}
+nav
+{
+	align:center;
+	background:url(interiordesignlogo.jpg)
+}
+nav ul 
+{
+	font-family: Arial, Verdana;
+	font-size: 14px;
+	margin: 0;
+	padding: 5;
+	list-style: none;
+	display:inline-block
+}
+nav ul li 
+{
+	display: block;
+	position: relative;
+	float: left;
+	align:center;
+}
+nav li ul 
+{ 
+display: none; 
+}
+nav ul li a 
+{
+display: block;
+	text-decoration: none;
+	color: #ffffff;
+	border-top: 1px solid #ffffff;
+	padding: 5px 15px 5px 15px;
+	background: #2C5463;
+	margin-left: 1px;
+	white-space: nowrap;
+}
+nav ul:after 
+{
+content: ""; 
+	clear: both; 
+	display: block;
+}
+nav ul li a:hover 
+{
+background: #617F8A; 
+}
+nav li:hover ul 
+{ 
+	display: block; 
+	position: absolute;
+}
+nav li:hover li 
+{ 
+	float: none;
+	font-size: 11px;
+}
+nav li:hover a 
+{
+background: #617F8A; 
+}
+nav li:hover li a:hover 
+{
+background: #95A9B1; 
+}
